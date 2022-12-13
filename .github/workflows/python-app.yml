@@ -34,7 +34,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        chmod +x ./.github/workflows/test_Calktest.py
+        chmod +x ./.github/pythonProject1/test_Calktest.py
       shell: bash
     - name: Complete executable file
       run: |
