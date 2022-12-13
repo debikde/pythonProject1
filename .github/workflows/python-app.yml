@@ -37,9 +37,13 @@ jobs:
       run: |
           pip install pyinstaller
           pyinstaller --onefile laba5.py
+    - name: Arhive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
           name: calc_files
           path: |
             dist/
+        
 
  
          
