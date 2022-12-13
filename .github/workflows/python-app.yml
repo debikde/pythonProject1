@@ -37,6 +37,9 @@ jobs:
       run: |
           pip install pyinstaller
           pyinstaller --onefile laba5.py
+          name: calc_files
+          path: |
+            dist/
 
  
          
