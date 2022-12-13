@@ -20,13 +20,13 @@ class Calculator:
 
 
 
-print("Введите число")
+# print("Введите число")
 # x = int(input())
 x = 8
-print("Введите действие")
+# print("Введите действие")
 # comand = input()
 comand = "+"
-print("Введите второе число")
+# print("Введите второе число")
 # x2 = int(input())
 x2 = 10
 calc = Calculator()
