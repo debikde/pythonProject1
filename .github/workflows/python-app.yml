@@ -37,7 +37,7 @@ jobs:
     - name: Complete executable file
       uses: Nuitka/Nuitka-Action@v0.4
       with: 
-            script-name: laba3.py
+            script-name: laba5.py
 
 
  
