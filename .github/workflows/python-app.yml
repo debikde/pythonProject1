@@ -33,17 +33,12 @@ jobs:
       run: |
         chmod +x ./.github/workflows/test_Calktest.py
       shell: bash
+      
     - name: Complete executable file
-      run: |
-          pip install pyinstaller
-          pyinstaller --onefile laba5.py
-    - name: Arhive production artifacts
-      uses: actions/upload-artifact@v3
-      with:
-          name: calc_files
-          path: |
-            dist/
-        
+      uses: Nuitka/Nuitka-Action@v0.4
+      with: 
+            script-name: laba3.py
+
 
  
          
