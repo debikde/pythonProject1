@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
     self.calculator = Calculator()
 
   def test_add(self):
-    self.assertEqual(self.calculator.summ(5,5), 1, "ошибка в сумме")
+    self.assertEqual(self.calculator.summ(5,5), 10, "ошибка в сумме")
   def test_subtract(self):
     self.assertEqual(self.calculator.minus(10,3), 7, "ошибка в вычитании")
   def test_multiply(self):
